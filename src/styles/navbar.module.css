@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 1.25rem 0;
+}
+.nav-links {
+  display: flex;
+}
+.nav-link a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: black;
+}
+.logo a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}

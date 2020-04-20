@@ -1,0 +1,27 @@
+.title {
+  text-align: center;
+  margin: 3.125rem 0 2.5rem 0;
+}
+.title p {
+  margin-top: 1.25rem;
+}
+.title p a {
+  color: #4a90e2;
+  font-weight: 500;
+}
+.template {
+  width: 80vw;
+  max-width: 1170px;
+  margin-top: 1.875rem;
+}
+.image img {
+  margin: 0 auto;
+}
+.content h3 {
+  padding: 1.25rem 0;
+}
+.content p {
+  color: #4a4a4a;
+  line-height: 1.5rem;
+  letter-spacing: 0.025rem;
+}

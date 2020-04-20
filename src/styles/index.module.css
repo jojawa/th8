@@ -1,0 +1,51 @@
+section {
+  width: 80vw;
+  max-width: 1170px;
+  margin: 6.25rem auto 0 auto;
+}
+.img {
+  margin-bottom: 3.125rem;
+}
+.content {
+  text-align: center;
+}
+.content h1 {
+  margin-top: 0.625rem;
+}
+.content h5 {
+  color: #4a4a4a;
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: 0.025rem;
+  margin: 1.25rem 0 2.5rem 0;
+}
+@media screen and (min-width: 768px) {
+  section {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    display: grid;
+    grid-gap: 5.75rem;
+    grid-template-columns: 1fr 1fr;
+  }
+  article .content {
+    text-align: start;
+  }
+  .img {
+    order: 1;
+  }
+}
+@media screen and (min-width: 992px) {
+  section .home {
+    margin-top: 10rem;
+    margin-bottom: 9rem;
+    display: grid;
+    grid-gap: 5.75rem;
+    grid-template-columns: 2fr 1fr;
+  }
+  article .content {
+    text-align: start;
+  }
+  .img {
+    order: 1;
+  }
+}

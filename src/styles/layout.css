@@ -1,0 +1,46 @@
+/* Global CSS */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Helvetica", sans-serif;
+  color: #000;
+}
+body {
+  padding: 1rem 2rem;
+}
+section {
+  min-height: calc(100vh - 20rem);
+}
+a {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2.44em;
+}
+h3 {
+  font-size: 1.875em;
+}
+h5 {
+  font-size: 1.25em;
+}
+h6 {
+  font-size: 0.8em;
+}
+p {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  section {
+    min-height: calc(100vh - 30rem);
+  }
+}

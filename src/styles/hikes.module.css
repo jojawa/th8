@@ -1,0 +1,57 @@
+.page-title {
+  text-align: center;
+  margin: 3.125rem 0 2.5rem 0;
+}
+.cards {
+  margin-top: 0;
+}
+.card {
+  border-radius: 1.23rem;
+  margin-bottom: 1.875rem;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+.card-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.card-head p a {
+  color: #4a90e2;
+}
+.text-container {
+  margin: 0 1.25rem;
+}
+.text-container h6 {
+  color: #4a4a4a;
+  line-height: 1.125rem;
+  letter-spacing: 0.025rem;
+  font-weight: 500;
+  padding: 1rem 0 2.1875rem 0;
+}
+.card img {
+  border-radius: 1.25rem 1.25rem 0 0;
+}
+@media screen and (min-width: 650px) {
+  .page-title {
+    text-align: center;
+    margin-bottom: 6.25rem;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3.125rem;
+  }
+  .card {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
