@@ -1,4 +1,4 @@
-section {
+.home {
   width: 80vw;
   max-width: 1170px;
   margin: 6.25rem auto 0 auto;
@@ -20,12 +20,13 @@ section {
   margin: 1.25rem 0 2.5rem 0;
 }
 @media screen and (min-width: 768px) {
-  section {
+  .home {
     margin-top: 10rem;
     margin-bottom: 10rem;
     display: grid;
     grid-gap: 5.75rem;
     grid-template-columns: 1fr 1fr;
+    min-height: calc(100vh - 30rem);
   }
   article .content {
     text-align: start;
@@ -35,14 +36,14 @@ section {
   }
 }
 @media screen and (min-width: 992px) {
-  section .home {
+  .home {
     margin-top: 10rem;
     margin-bottom: 9rem;
     display: grid;
     grid-gap: 5.75rem;
     grid-template-columns: 2fr 1fr;
   }
-  article .content {
+  .content {
     text-align: start;
   }
   .img {

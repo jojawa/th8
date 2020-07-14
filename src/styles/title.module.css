@@ -1,0 +1,9 @@
+.title {
+  margin-top: 3.125rem;
+}
+@media screen and (min-width: 648px) {
+  .title {
+    font-size: 0.625rem;
+    margin-left: 2rem;
+  }
+}

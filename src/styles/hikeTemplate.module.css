@@ -6,7 +6,7 @@
   margin-top: 1.25rem;
 }
 .title p a {
-  color: #4a90e2;
+  color: var(--blue);
   font-weight: 500;
 }
 .template {
@@ -14,14 +14,15 @@
   max-width: 1170px;
   margin-top: 1.875rem;
 }
-.image img {
+.image {
+  max-width: 21.25rem;
   margin: 0 auto;
 }
 .content h3 {
   padding: 1.25rem 0;
 }
 .content p {
-  color: #4a4a4a;
+  color: var(--dark);
   line-height: 1.5rem;
   letter-spacing: 0.025rem;
 }

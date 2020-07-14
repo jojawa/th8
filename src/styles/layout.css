@@ -1,4 +1,12 @@
 /* Global CSS */
+:root {
+  --blue: #4a90e2;
+  --dark: #4a4a4a;
+  --grey: #666;
+  --white: #fff;
+  --quoteBg: #f9f9f9;
+  --quoteBorder: #ccc;
+}
 
 * {
   box-sizing: border-box;
@@ -12,11 +20,13 @@ html {
 body {
   padding: 1rem 2rem;
 }
-section {
+/* section {
   min-height: calc(100vh - 20rem);
-}
+} */
 a {
   cursor: pointer;
+  text-decoration: none;
+  color: #4a90e2;
 }
 li {
   list-style-type: none;
@@ -35,12 +45,8 @@ h5 {
 }
 h6 {
   font-size: 0.8em;
+  color: #4a4a4a;
 }
 p {
   font-size: 16px;
-}
-@media screen and (min-width: 768px) {
-  section {
-    min-height: calc(100vh - 30rem);
-  }
 }

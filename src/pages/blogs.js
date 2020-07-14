@@ -1,22 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
-import styles from "../styles/blogs.module.css"
+import Featured from "../components/Featured"
+import Posts from "../components/Posts"
 
-const blogs = () => {
+const Blogs = () => {
   return (
     <Layout>
-      <main>
-        <section className={styles.empty}>
-          <div className={styles.title}>
-            <h1>The Hidden 8log</h1>
-            <h5>
-              Coming soon... <span>on Island Time</span>
-            </h5>
-          </div>
-        </section>
-      </main>
+      <Featured />
+      <Posts />
     </Layout>
   )
 }
 
-export default blogs
+export default Blogs

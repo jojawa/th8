@@ -1,0 +1,44 @@
+.page-title {
+  display: none;
+}
+.container {
+  display: block;
+  width: 90vw;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  margin: 5% auto 0 auto;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.featured {
+  display: flex;
+  white-space: nowrap;
+}
+.featured div {
+  height: 10.3125rem;
+}
+.card {
+  margin-right: 1.25rem;
+}
+.image {
+  width: 16.8rem;
+  border-radius: 0.625rem;
+}
+.title {
+  white-space: normal;
+  margin: 0.9375rem 0 0.625rem 0;
+  /* color: #4a4a4a; */
+}
+.sub-head {
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #666;
+}
+@media screen and (min-width: 648px) {
+  .page-title {
+    display: block;
+    text-align: center;
+    margin: 3.125rem 0 2.5rem 0;
+  }
+}
