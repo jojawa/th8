@@ -11,11 +11,11 @@
 }
 .template {
   width: 80vw;
-  max-width: 1170px;
+
   margin-top: 1.875rem;
 }
 .image {
-  max-width: 21.25rem;
+  max-width: 31.25rem;
   margin: 0 auto;
 }
 .content h3 {
@@ -25,4 +25,10 @@
   color: var(--dark);
   line-height: 1.5rem;
   letter-spacing: 0.025rem;
+}
+@media screen and (min-width: 440px) {
+  .template {
+    max-width: 31.25rem;
+    margin: 1.875rem auto;
+  }
 }
