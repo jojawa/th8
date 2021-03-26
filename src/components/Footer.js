@@ -11,7 +11,7 @@ const Footer = () => {
         </span>{" "}
         by{" "}
         <a
-          href="http://seitujoseph.com"
+          href="https://jawara.netlify.com"
           target="_blank"
           rel="noopener noreferrer"
         >

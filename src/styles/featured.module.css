@@ -20,7 +20,9 @@
 }
 .card {
   margin-right: 1.25rem;
+  z-index: 99 !important;
 }
+
 .image {
   width: 16.8rem;
   border-radius: 0.625rem;
