@@ -11,11 +11,11 @@ const Footer = () => {
         </span>{" "}
         by{" "}
         <a
-          href="https://jawara.netlify.com"
+          href="https://www.linkedin.com/in/josephjawara/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          c2
+          joe
         </a>
       </p>
     </footer>
